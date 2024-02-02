@@ -9,22 +9,22 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<div>
+	<form>
 		<h1>Internship Form</h1>
 		<label for="first-name-input">First Name</label>
-		<input id="first-name-input" type="text" required>
+		<input class="form-control" id="first-name-input" type="text" required>
 		
 		<label for="last-name-input">Last Name</label>
 		<input id="last-name-input" type="text" required>
 
-		<label for="email-input">Email</label>
+		<label for="email-input">Email Address</label>
 		<input id="email-input" type="email" placeholder="xyz@abc.com" required>
 
 		<label for="college-input">College Name</label>
 		<input id="college-input" type="text" required>
 
 		<label for="grad-year-select">Graduation Year</label>
-		<select aria-required>
+		<select id="grad-year-select" aria-required>
 			<option>Choose</option>
 			<option>2020</option>
 			<option>2021</option>
@@ -39,8 +39,8 @@
 		<input id="conditions-checkbox" type="checkbox" required>
 		<label for="conditions-checkbox">Agree to terms and conditions.</label>
 
-		<button type="submit">Submit form</button>
-	</div>
+		<button class="btn btn-primary" type="submit">Submit form</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
