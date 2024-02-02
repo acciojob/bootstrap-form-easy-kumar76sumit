@@ -15,30 +15,30 @@
 		<input class="form-control" id="first-name-input" type="text" required>
 		<div id="first-name-error" class="invalid-feedback" style="color: red;"></div>
 		
-		<label for="last-name-input">Last Name</label>
+		<label class="form-label" for="last-name-input">Last Name</label>
 		<input class="form-control" id="last-name-input" type="text" required>
 
-		<label for="email-input">Email Address</label>
-		<input id="email-input" type="email" placeholder="xyz@abc.com" required>
+		<label class="form-label" for="email-input">Email Address</label>
+		<input class="form-control" id="email-input" type="email" placeholder="xyz@abc.com" required>
 
-		<label for="college-input">College Name</label>
-		<input id="college-input" type="text" required>
+		<label class="form-label" for="college-input">College Name</label>
+		<input class="form-control" id="college-input" type="text" required>
 
 		<label class="form-label" for="grad-year-select">Graduation Year</label>
-		<select id="grad-year-select" required>
-			<option>Choose</option>
-			<option>2020</option>
-			<option>2021</option>
-			<option>2022</option>
-			<option>2023</option>
+		<select class="form-control" id="grad-year-select" required>
+			<option selected>Choose...</option>
+			<option value="1">2020</option>
+			<option value="2">2021</option>
+			<option value="3">2022</option>
+			<option value="4">2023</option>
 		</select>
 
-		<label for="roll-no-input">Roll No.</label>
-		<input id="roll-no-input" type="text" required>
+		<label class="form-label" for="roll-no-input">Roll No.</label>
+		<input class="form-control" id="roll-no-input" type="text" required>
 
 		
 		<input id="conditions-checkbox" type="checkbox" required>
-		<label for="conditions-checkbox">Agree to terms and conditions.</label>
+		<label class="form-label" for="conditions-checkbox">Agree to terms and conditions.</label>
 
 		<button class="btn btn-primary" type="submit">Submit form</button>
 	</form>
