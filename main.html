@@ -11,11 +11,12 @@
 	<!-- the entire body must be written by student -->
 	<form>
 		<h1>Internship Form</h1>
-		<label for="first-name-input">First Name</label>
+		<label class="form-label" for="first-name-input">First Name</label>
 		<input class="form-control" id="first-name-input" type="text" required>
+		<div id="first-name-error" class="invalid-feedback" style="color: red;"></div>
 		
 		<label for="last-name-input">Last Name</label>
-		<input id="last-name-input" type="text" required>
+		<input class="form-control" id="last-name-input" type="text" required>
 
 		<label for="email-input">Email Address</label>
 		<input id="email-input" type="email" placeholder="xyz@abc.com" required>
@@ -23,8 +24,8 @@
 		<label for="college-input">College Name</label>
 		<input id="college-input" type="text" required>
 
-		<label for="grad-year-select">Graduation Year</label>
-		<select id="grad-year-select" aria-required>
+		<label class="form-label" for="grad-year-select">Graduation Year</label>
+		<select id="grad-year-select" required>
 			<option>Choose</option>
 			<option>2020</option>
 			<option>2021</option>
